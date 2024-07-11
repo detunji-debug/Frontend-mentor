@@ -1,0 +1,157 @@
+
+@media screen and (max-width: 1024px) {
+    body {
+      padding: 0 50px;
+    }
+  
+    .hero h1 {
+      font-size: 40px;
+    }
+  
+    .hero p {
+      width: 60%;
+    }
+  
+    .social-link {
+      left: 400px;
+    }
+  
+    .profile {
+      left: 200px;
+    }
+  
+    .profile img {
+      width: 60%;
+      height: auto;
+    }
+  
+    .expi {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .project-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+
+ .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-container {
+    width: 80%;
+    max-width: 600px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-info h1 {
+    font-size: 3rem;
+  }
+
+  .contact-info p {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .contact-form button {
+    align-self: center;
+  }
+
+
+  
+  
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 0 30px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-link {
+      left: 0;
+      margin-top: 20px;
+    }
+  
+    main {
+      flex-direction: column;
+    }
+  
+    .hero {
+      position: static;
+      text-align: center;
+     margin-bottom: 30px;
+    }
+    
+    .hero h1 {
+      font-size: 32px;
+    }
+  
+    .hero p {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    .profile {
+      left: 0;
+      text-align: center;
+    }
+  
+    .profile img {
+      width: 80%;
+    }
+  
+    .expi {
+      grid-template-columns: 1fr;
+    }
+  
+    .project-box {
+      grid-template-columns: 1fr;
+    }
+  
+    .proj-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-content {
+      flex-direction: column;
+    }
+  
+    .contact-content p, .contact-form {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer .social-links {
+      margin-top: 20px;
+    }
+  }

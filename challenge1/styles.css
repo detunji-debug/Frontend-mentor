@@ -1,0 +1,225 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    color: #ffff;
+    padding: 0 100px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    overflow-x: hidden;
+}
+.social-link{
+ position: relative;
+ left: 600px;
+}
+.social-link i{
+    width: 25px;
+}
+/*hero*/
+.hero{
+    position: absolute;
+    top: 120px;
+}
+.hero h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.high{
+    border-bottom: 2px solid #4caf50;
+}
+
+.hero p{
+    width: 50%;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+button.contact-btn{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.contact-button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ffff;
+    cursor: pointer;
+}
+.profile{
+    flex: 1;
+    position: relative;
+    left: 250px;
+    z-index: -1;
+}
+.profile img{
+    width: 50%;
+    height: 90vh;
+
+}
+
+/*section experience*/
+section.experience{
+    margin: 50px 0px;
+    border-top: 1px solid #888;
+}
+
+.expi{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.exp{
+    text-align: left;
+    padding-right: 20px;
+}
+
+.exp h2{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.exp p{
+    font-size: 0.7rem;
+    color: #888;
+}
+
+
+/*Projects*/
+
+.project{
+    max-width: 800px;
+    padding: 20px;
+    
+}
+.proj-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.proj-info h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.proj-info a{
+    text-decoration: none;
+    color: #888;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4caf50;
+}
+.contact-btn2{
+    padding-top: 60px;
+}
+
+.project-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.proj-box{
+    padding: 20px;
+}
+
+.proj-box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.proj-box h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.proj-box p{
+    font-size: 10px;
+    color:#888 ;
+}
+
+
+/*CONTACT*/
+section.contact{
+    border-top: 1px solid #888;
+    /*background-color: #040404;*/
+}
+
+.contact-container{
+    margin: 0;
+}
+.contact-container h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contact-content p{
+    max-width: 50%;
+    font-size: 0.7rem;
+    
+}
+
+.contact-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+input,textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    color: #ffff;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+textarea{height: 80px;
+    resize: vertical;
+}
+button{
+    align-self: flex-end;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    border-bottom: 2px solid #4caf50;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ffff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
